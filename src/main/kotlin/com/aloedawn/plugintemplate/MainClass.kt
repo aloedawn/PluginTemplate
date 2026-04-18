@@ -1,4 +1,4 @@
-package io.yutari.plugintemplate
+package com.aloedawn.plugintemplate
 
 import org.bukkit.Bukkit
 import org.bukkit.plugin.java.JavaPlugin

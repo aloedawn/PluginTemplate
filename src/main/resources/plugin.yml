@@ -1,5 +1,6 @@
 name: ${pluginName}
 version: ${pluginVersion}
-main: io.yutari.plugintemplate.MainClass
+main: ${pluginMain}
 description: ${pluginDescription}
+author: ${pluginAuthor}
 api-version: ${apiVersion}

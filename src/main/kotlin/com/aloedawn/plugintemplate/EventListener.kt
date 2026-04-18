@@ -1,4 +1,4 @@
-package io.yutari.plugintemplate
+package com.aloedawn.plugintemplate
 
 import net.kyori.adventure.text.Component.text
 import org.bukkit.event.EventHandler

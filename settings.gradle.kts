@@ -1,4 +1,18 @@
-rootProject.name = "PluginTemplate"
+pluginManagement {
+    val ktVersion: String by settings
+    val shadowJarVersion: String by settings
+
+    repositories {
+        gradlePluginPortal()
+    }
+
+    plugins {
+        kotlin("jvm") version ktVersion
+        id("com.gradleup.shadow") version shadowJarVersion
+    }
+}
+
+rootProject.name = settings.extra.properties["pluginName"] as String? ?: "PluginTemplate"
 
 dependencyResolutionManagement {
     repositories {
