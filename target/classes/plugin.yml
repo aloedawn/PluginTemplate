@@ -1,4 +1,0 @@
-name: PluginTemplate
-version: '1.0.0'
-main: io.yutari.plugintemplate.PluginTemplate
-api-version: 1.21
