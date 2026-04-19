@@ -33,7 +33,7 @@ java {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:$mcVersion-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:$mcVersion.build.+")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:$ktVersion")
 }
 
